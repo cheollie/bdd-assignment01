@@ -1,0 +1,29 @@
+Goal: The goal of the project will be to write a piece of software that matches N doctors with K hospitals. Each doctor is allowed to 
+provide a ranked list of their preference for hospitals; however hospitals are prohibited from 
+displaying preferences for doctors. Thus, the code should take in the following: 
+● A list of ranked preferences, 1 list for each doctor 
+● A maximum capacity for each hospital (assume that the total capacity is sufficient to 
+assign all doctors) 
+And the code should return: 
+● A list of assignments indicating which doctors are assigned to each hospital 
+
+
+ALICE 1 2 3 
+BOB 2 3 1
+CHRIS 1 2 3
+DAVID 3 2 1
+ELLE 1 2 3
+
+
+OPTION 1:
+- go through list of each doctor if doctor isn't already assigned (not an issue cuz only one doctor per)
+- take top preferred 
+- if hospital has capacity left, assign doctor to that hospital
+- if hospital is full, look at next preferred hospital in the list
+- mark doctor as assigned and move onto next doctor
+- tradeoff: doctors in beginning of the list has an advantage -> randomization 
+
+OPTION 2: 
+- go through list of hospitals
+- you could build a list of doctors per hospital where each hospital would have some list of like all the people who assigned it in the first preference, second prefernce, etc
+- hospitals dont have prefs os this is just not optimal
