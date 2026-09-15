@@ -1,0 +1,31 @@
+{
+  "preferences": {
+    "Doctor 01": ["General", "Mercy", "University", "City", "St. Joseph"],
+    "Doctor 02": ["General", "University", "Mercy", "St. Joseph", "City"],
+    "Doctor 03": ["Mercy", "General", "City", "University", "St. Joseph"],
+    "Doctor 04": ["University", "City", "General", "Mercy", "St. Joseph"],
+    "Doctor 05": ["General", "Mercy", "St. Joseph", "City", "University"],
+    "Doctor 06": ["City", "University", "Mercy", "General", "St. Joseph"],
+    "Doctor 07": ["Mercy", "City", "General", "St. Joseph", "University"],
+    "Doctor 08": ["General", "University", "City", "Mercy", "St. Joseph"],
+    "Doctor 09": ["St. Joseph", "Mercy", "General", "University", "City"],
+    "Doctor 10": ["University", "General", "City", "St. Joseph", "Mercy"],
+    "Doctor 11": ["Mercy", "General", "University", "City", "St. Joseph"],
+    "Doctor 12": ["City", "St. Joseph", "University", "Mercy", "General"],
+    "Doctor 13": ["General", "City", "Mercy", "University", "St. Joseph"],
+    "Doctor 14": ["University", "Mercy", "St. Joseph", "General", "City"],
+    "Doctor 15": ["Mercy", "University", "General", "City", "St. Joseph"],
+    "Doctor 16": ["St. Joseph", "City", "Mercy", "University", "General"],
+    "Doctor 17": ["General", "St. Joseph", "University", "Mercy", "City"],
+    "Doctor 18": ["City", "Mercy", "University", "General", "St. Joseph"],
+    "Doctor 19": ["University", "General", "St. Joseph", "City", "Mercy"],
+    "Doctor 20": ["St. Joseph", "University", "City", "Mercy", "General"]
+  },
+  "capacities": {
+    "General": 4,
+    "Mercy": 4,
+    "University": 4,
+    "City": 4,
+    "St. Joseph": 4
+  }
+}

@@ -1,0 +1,12 @@
+{
+  "preferences": {
+    "Alice": ["Hospital 1", "Hospital 2"],
+    "Bob": ["Hospital 1", "Hospital 2"],
+    "Chris": ["Hospital 2", "Hospital 1"],
+    "David": ["Hospital 2", "Hospital 1"]
+  },
+  "capacities": {
+    "Hospital 1": 2,
+    "Hospital 2": 2
+  }
+}
